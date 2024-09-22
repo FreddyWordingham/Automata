@@ -14,5 +14,7 @@ fn main() {
                 })
                 .set(ImagePlugin::default_nearest()),
         )
+        .add_plugins(InputPlugin)
+        .add_plugins(MapPlugin)
         .run();
 }
